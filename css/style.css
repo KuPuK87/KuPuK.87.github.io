@@ -5,7 +5,7 @@
 
 html {
     font-family: "Poppins";
-    font-weight: 400;
+    font-weight: 500;
     font-size: 14px;
     color: #505050;
     scroll-behavior: smooth;
@@ -873,11 +873,14 @@ header {
 /* Footer */
 
 .footer {
-    background: #9B9BCA;
+    margin-top: 50px;
+    background-image: url(/img/bg_footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 127px;
 }
 
 .footer_block {
-    margin-top: 177px;
     display: flex;
     justify-content: center;
 }
@@ -914,6 +917,7 @@ header {
     margin-top: 75px;
     display: flex;
     padding: 30px 0;
+    align-items: center;
 }
 
 .copyring {
