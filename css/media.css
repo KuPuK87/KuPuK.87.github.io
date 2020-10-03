@@ -76,7 +76,8 @@
     }
 
     .slider_li-text {
-        top: 250px;
+        top: 200px;
+        width: 60%;
     }
 
     .services_block {
@@ -86,6 +87,10 @@
 
     .services_block-item {
         width: 40%;
+    }
+
+    .services_block-item:hover {
+        width: calc(40% - 2px);
     }
 
     .services_support {
@@ -207,6 +212,10 @@
             width: 100%;
         }
 
+        .services_block-item:hover {
+            width: 100%;
+        }
+
         .services_support-item div {
             width: 60px;
             height: 60px;
@@ -272,6 +281,7 @@
         .accordion:after {
             top: 50px;
         }
+
         .popup {
             width: 60%;
         }
